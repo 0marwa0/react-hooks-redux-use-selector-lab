@@ -3,12 +3,13 @@ import UserInput from "./features/users/UserInput";
 import ConnectedUsers from "./features/users/Users";
 
 function App() {
+
+
   return (
     <div>
-      <UserInput />
+ <UserInput />
       <ConnectedUsers />
-    </div>
-  );
+ </div>  );
 }
 
 export default App;
